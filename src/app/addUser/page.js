@@ -158,15 +158,17 @@ export default function Page() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const data = {formData}
+    console.log("process. env",process.env);
+    console.log(process.env.BACKEND_URL+"/fill-pdf");
 
-    const res = await fetch(process.env.BACKEND_URL+"/fill-pdf", {
+    const res = await fetch(`https://server-pdf-autofill.vercel.app/fill-pdf`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(data),
     });
-
+    // console.log(await res.blob());
     const pdfBlob = await res.blob();
     const url = window.URL.createObjectURL(pdfBlob);
     const a = document.createElement('a');
