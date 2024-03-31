@@ -52,7 +52,7 @@ export default function GeneralProfile({ formData, setFormData }) {
       </div>
       <div className="flex gap-5 justify-between">
         <label className=" gap-2 flex justify-center items-center">
-          Student's State code/ID:
+          Student{"'"}s State code/ID:
           <input
             onChange={(e) => handleChange(e)}
             placeholder="Student's State code/ID: "
@@ -78,7 +78,7 @@ export default function GeneralProfile({ formData, setFormData }) {
       </div>
       <div className="flex gap-5 justify-between">
         <label className=" gap-2 flex justify-center items-center">
-          Student's Name(As Per School Records):
+          Student{"'"}s Name(As Per School Records):
           <input
             onChange={(e) => handleChange(e)}
             placeholder="Student's Name(As Per School Records): "
@@ -118,7 +118,7 @@ export default function GeneralProfile({ formData, setFormData }) {
       </div>
       <div className="flex gap-5 justify-between">
         <div className="flex gap-2 w-1/2 justify-center items-center">
-          <label className=" w-1/2">Father's Name:</label>
+          <label className=" w-1/2">Father{"'"}s Name:</label>
           <input
             onChange={(e) => handleChange(e)}
             placeholder="Father's Name: "
@@ -130,7 +130,7 @@ export default function GeneralProfile({ formData, setFormData }) {
           />
         </div>
         <div className="flex gap-2 w-1/2 justify-center items-center">
-          <label className="w-1/2">Father's Aadhar No.:</label>
+          <label className="w-1/2">Father{"'"}s Aadhar No.:</label>
           <input
             onChange={(e)=>handleChange(e)}
             placeholder="Father's Aadhar No."
@@ -144,7 +144,7 @@ export default function GeneralProfile({ formData, setFormData }) {
       </div>
       <div className="flex gap-5 justify-between">
         <div className="flex gap-2 w-1/2 justify-center items-center">
-          <label className="w-1/2">Father's Qualification:</label>
+          <label className="w-1/2">Father{"'"}s Qualification:</label>
           <input
             onChange={(e) => handleChange(e)}
             placeholder="Father's Qualification:"
@@ -156,7 +156,7 @@ export default function GeneralProfile({ formData, setFormData }) {
           />
         </div>
         <div className="flex gap-2 w-1/2 justify-center items-center">
-          <label className=" w-1/2">Father's Occupation:</label>
+          <label className=" w-1/2">Father{"'"}s Occupation:</label>
           <input
             onChange={(e) => handleChange(e)}
             placeholder="Father's Occupation: "
@@ -170,7 +170,7 @@ export default function GeneralProfile({ formData, setFormData }) {
       </div>
       <div className="flex gap-5 justify-between">
         <div className="flex gap-2 w-1/2 justify-center items-center">
-          <label className=" w-1/2">Mother's Name:</label>
+          <label className=" w-1/2">Mother{"'"}s Name:</label>
           <input
             onChange={(e) => handleChange(e)}
             placeholder="Mother's Name: "
@@ -182,7 +182,7 @@ export default function GeneralProfile({ formData, setFormData }) {
           />
         </div>
         <div className="flex gap-2 w-1/2 justify-center items-center">
-          <label className="w-1/2">Mother's Aadhar No.:</label>
+          <label className="w-1/2">Mother{"'"}s Aadhar No.:</label>
           <input
             onChange={(e) => handleChange(e)}
             placeholder="Mother's Aadhar No."
@@ -196,7 +196,7 @@ export default function GeneralProfile({ formData, setFormData }) {
       </div>
       <div className="flex gap-5 justify-between">
         <div className="flex gap-2 w-1/2 justify-center items-center">
-          <label className="w-1/2">Mother's Qualification:</label>
+          <label className="w-1/2">Mother{"'"}s Qualification:</label>
           <input
             onChange={(e) => handleChange(e)}
             placeholder="Mother's Qualification:"
@@ -208,7 +208,7 @@ export default function GeneralProfile({ formData, setFormData }) {
           />
         </div>
         <div className="flex gap-2 w-1/2 justify-center items-center">
-          <label className=" w-1/2">Mother's Occupation:</label>
+          <label className=" w-1/2">Mother{"'"}s Occupation:</label>
           <input
             onChange={(e) => handleChange(e)}
             placeholder="Mother's Occupation: "
@@ -222,7 +222,7 @@ export default function GeneralProfile({ formData, setFormData }) {
       </div>
       <div className="flex gap-5 justify-between">
         <div className="flex gap-2 w-1/2 justify-center items-center">
-          <label className=" w-1/2">Gaurdian's Name:</label>
+          <label className=" w-1/2">Gaurdian{"'"}s Name:</label>
           <input
             onChange={(e) => handleChange(e)}
             placeholder="Gaurdian's Name: "
@@ -234,7 +234,7 @@ export default function GeneralProfile({ formData, setFormData }) {
           />
         </div>
         <div className="flex gap-2 w-1/2 justify-center items-center">
-          <label className="w-1/2">Gaurdian's Aadhar No.:</label>
+          <label className="w-1/2">Gaurdian{"'"}s Aadhar No.:</label>
           <input
             onChange={(e) => handleChange(e)}
             placeholder="Gaurdian's Aadhar No."
@@ -252,7 +252,7 @@ export default function GeneralProfile({ formData, setFormData }) {
           <input
             onChange={(e) => handleChange(e)}
             placeholder="Student relation with gaurdian (Other than Father/Mother): "
-            className=" text-black placeholder-gray-600 px-4 py-2.5 mt-2 text-base  transition duration-500 ease-in-out transform border-transparent rounded-lg bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
+            className=" text-black placeholder-gray-600 px-4 py-2.5 mt-2 text-base w-1/2  transition duration-500 ease-in-out transform border-transparent rounded-lg bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"
             type="text"
             id="relationWithGaurdian"
             value={formData.relationWithGaurdian}

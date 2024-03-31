@@ -91,7 +91,7 @@ export default function ContactDetails({formData, setFormData}) {
       </div>
       <div className="flex gap-5 justify-between">
         <div className="flex gap-2 w-1/2 justify-center items-center">
-          <label className="w-1/2">Mother's Mobile No.:</label>
+          <label className="w-1/2">Mother{"'"}s Mobile No.:</label>
           <input
             onChange={(e) => handleChange(e)}
             placeholder="Mother's Mobile No."
@@ -103,7 +103,7 @@ export default function ContactDetails({formData, setFormData}) {
           />
         </div>
         <div className="flex gap-2 w-1/2 justify-center items-center">
-          <label className=" w-1/2">Father's Mobile No.:</label>
+          <label className=" w-1/2">Father{"'"}s Mobile No.:</label>
           <input
             onChange={(e) => handleChange(e)}
             placeholder="Father's Mobile No."

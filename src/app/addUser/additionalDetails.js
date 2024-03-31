@@ -133,7 +133,7 @@ export default function AdditionalDetails({formData, setFormData}) {
         </div>
         <div className="flex gap-2 w-1/2 justify-center items-center">
           <label className="w-1/2">
-            Type of Disability(if "Yes" then fill this):
+            Type of Disability(if {'"'}Yes{'"'} then fill this):
           </label>
           <input
             onChange={(e) => handleChange(e)}
@@ -175,7 +175,7 @@ export default function AdditionalDetails({formData, setFormData}) {
         </div>
       </div>
       <div className="text-xs my-3">
-        If Out of School is 'No' then fill the following-
+        If Out of School is {'"'}No{'"'} then fill the following-
       </div>
       <div className="flex gap-5 justify-between">
             <div className="flex gap-2 w-full justify-between items-center">

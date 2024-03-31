@@ -8,11 +8,11 @@ export default function StudentAadhar({formData, setFormData}) {
   return (
     <div className="px-5 py-5 w-[1080px] border-2 border-black rounded-lg mt-5">
       <h1 className="text-3xl font-semibold text-center underline">
-        Student's Aadhar Details
+        Student{"'"}s Aadhar Details
       </h1>
       <div className="flex gap-5 justify-between">
         <div className="flex gap-2 w-1/2 justify-center items-center">
-          <label className=" w-1/2">Student's Aadhar No.:</label>
+          <label className=" w-1/2">Student{"'"}s Aadhar No.:</label>
           <input
             onChange={(e) => handleChange(e)}
             placeholder="Student's Aadhar No.:"
@@ -24,7 +24,7 @@ export default function StudentAadhar({formData, setFormData}) {
           />
         </div>
         <div className="flex gap-2 w-1/2 justify-center items-center">
-          <label className="w-1/2">Student's Name as per Aadhar:</label>
+          <label className="w-1/2">Student{"'"}s Name as per Aadhar:</label>
           <input
             onChange={(e) => handleChange(e)}
             placeholder="Student's Name as per Aadhar:"
