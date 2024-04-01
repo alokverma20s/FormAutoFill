@@ -158,10 +158,8 @@ export default function Page() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const data = {formData}
-    console.log("process. env",process.env);
-    console.log(process.env.BACKEND_URL+"/fill-pdf");
 
-    const res = await fetch(`https://server-pdf-autofill.vercel.app/fill-pdf`, {
+    const res = await fetch(`http://localhost:8000/fill-pdf`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
