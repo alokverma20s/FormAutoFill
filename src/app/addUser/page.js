@@ -159,7 +159,7 @@ export default function Page() {
     e.preventDefault();
     const data = {formData}
 
-    const res = await fetch(`http://localhost:8000/fill-pdf`, {
+    const res = await fetch(`https://server-pdf-autofill.onrender.com/fill-pdf`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
